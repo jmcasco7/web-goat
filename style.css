@@ -21,3 +21,22 @@ nav{
         height: 200px;
     }
 </style>
+
+/* Estilos para centrar el contenido y estilizar los enlaces */
+.nav-links {
+    display: flex; /* Utiliza Flexbox para centrar los elementos */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    background-color: #f8f8f8; /* Color de fondo opcional */
+    padding: 10px; /* Espaciado interno */
+}
+
+.nav-links a {
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    color: #333; /* Color del texto */
+    margin: 0 15px; /* Espaciado entre los enlaces */
+    font-weight: bold; /* Texto en negrita */
+}
+
+.nav-links a:hover {
+    color: #007BFF; /* Color del texto al pasar el cursor */
+}
