@@ -9,3 +9,15 @@ nav{
     color:rgb(255, 190, 104)
 }
 
+<article>
+    <center>
+        <img src="img/logonegro.png" alt="" class="logo">
+    </center>
+</article>
+
+<style>
+    .logo {
+        width: 300px;
+        height: 200px;
+    }
+</style>
